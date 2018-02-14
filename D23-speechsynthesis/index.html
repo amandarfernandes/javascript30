@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS30Day23SpeechSynthesis</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+<h2>The Voiceinator 5000</h2>
+<select name="voice">
+	<option value="">Select a Voice</option>
+</select>
+<label for="rate">Rate: </label>
+<input type="range" min="0" max="3" value="1" step="0.1" name="rate" />
+<label for="pitch">Pitch: </label>
+<input type="range" name="pitch" min="0" max="2" step="0.1"/>
+<textarea name="text"> Testing speech synthesis</textarea>
+<div class="buttons">
+	<button id="stop">Stop!</button>
+	<button id="speak">Speak</button>
+	</div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

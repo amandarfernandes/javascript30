@@ -1,0 +1,77 @@
+body {
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;	
+	background: 
+radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%),
+
+radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
+background-color:#b03;
+background-size:100px 100px;
+	
+}
+
+.wrapper {
+	width:	300px;
+	height: 400px;
+	position:relative;
+	margin: auto;
+	background:white;
+	border-radius:10px;
+	}
+
+label{
+	font-size:0.5em;
+	padding-left: 10px;
+}
+
+select, input, textarea {
+	display:block;
+	margin:  5px auto;
+	width:90%;
+ background:#e7e7e7;
+	outline:none;
+	border:none;
+}
+
+select {
+	font-family:Helvetica neue;
+	font-size:1em;
+}
+textarea { height:150px;}
+
+
+
+
+button {
+	background: rgba(221,51,85,0.8);
+	border-radius: 4px;
+	font-family:cursive;
+	font-size:1.2em;
+	width:45%;
+	margin:5px;
+}
+
+.buttons {
+	display:flex;
+	justify-content:center;
+	
+}
+h2 {
+	background: rgba(221,51,85,0.8);
+	color: black;
+	text-align:center;
+	margin:0;
+	padding:15px;
+	font-family:cursive;
+	font-weight:800;
+}
